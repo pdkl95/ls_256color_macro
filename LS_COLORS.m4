@@ -69,34 +69,41 @@ SOCK,                  200
 STICKY,                118/235, BOLD
 STICKY_OTHER_WRITABLE, 139/235, BOLD
 
-.bash, 002
-.sh,   002
-.csh,  002
-.tar,  001
-.tgz,  001
+#.tar.gz,  124,52
+#.tar.bz1, 160,52
+.tgz,     124,232
+.tbz2,    169,232
+
+.tar,     120
+.gz,      203,15
+.bz2,     204,16
+
+.rar,  160/333
+.zip,  161/234
+.jar,  162/235
+
+.7z,   001
+.rz,   001
+.cpio, 001
+
+# linux-package-manger files
+.deb,  001
+.rpm,  001
+
+# older archive formast that are now uncommon
 .svgz, 001
 .arj,  001
 .taz,  001
 .lzh,  001
-.zip,  160,52
 .z,    001
 .Z,    001
 .dz,   001
-.gz,   ,52
-.bz2,  001
 .bz,   001
-.tbz2, 001
 .tz,   001
-.deb,  001
-.rpm,  001
-.jar,  001
-.rar,  160,52
 .ace,  001
 .zoo,  001
-.cpio, 001
-.7z,   001
-.rz,   001
 
+# Imsages, common
 .jpg,  005
 .jpeg, 005
 .gif,  005
@@ -113,19 +120,22 @@ STICKY_OTHER_WRITABLE, 139/235, BOLD
 .mng,  005
 .pcx,  005
 
+# common, prefered video containers
+.mkv,  135/16
+.webm, 134/16
 .mpg,  097/234
+
+# acceptable fromats
+.mp4,  140/232
+.m4v,  140/232
+.mp4v, 140/232
+.ogm,  141/232
+.avi,  134/232
+
 .mpeg, 097/234
 .vob,  098/233
 .m2v,  098/233
 
-.webm, 099/16
-.mkv,  135/16
-.ogm,  141/232
-.avi,  134/232
-
-.mp4,  140/232
-.m4v,  140/232
-.mp4v, 140/232
 .flv,  097/235
 .mov,  135/235
 
@@ -144,35 +154,52 @@ STICKY_OTHER_WRITABLE, 139/235, BOLD
 .xcf,  005
 .xwd,  005
 .yuv,  005
-.aac,  006
 .au,   006
+
+# prefered audio formats
 .flac, 006
+.mp3,  006
+.aac,  006
+.ogg,  00
+
 .mid,  006
 .midi, 006
-.mka,  006
-.mp3,  006
-.mpc,  006
-.ogg,  006
-.ra,   006
 .wav,  006
 
-.sub,  85
-.ssa,  122
-.ass,  122
-.srt,  86
+.mka,  006
+.mpc,  006
+.ra,   006
 
+# video subtitles, when stand-alone
+.ssa,  192/23
+.ass,  192/23
+.srt,  191/23
+.sub,  157/23
 
-.nfo,  59
+# txt formats
+.nfo,      64
 
+# www/w3c formats
 .html, 187/16
 .js,   182/16
 .css,  229/16
+.svg,  175/15
 
+# templating tools used to generate
+# the above www/w3c data
 .shaml,  209/232
 .haml,   216/232
 .coffee, 217/232
 .sass,   228/232
 .scss,   228/232
+.less,   228/232
+.md,     218/232
+.markdown, 218/232
+
+# programming languages, and reated stuff
+.bash, 002
+.sh,   002
+.csh,  002
 
 .o,    236
 
