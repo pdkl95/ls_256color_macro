@@ -177,7 +177,7 @@ STICKY_OTHER_WRITABLE, 139/235, BOLD
 .sub,  157/23
 
 # txt formats
-.nfo,  83/58 DARK
+.nfo,  83/58, DARK
 
 # www/w3c formats
 .html, 187/16
@@ -202,7 +202,7 @@ STICKY_OTHER_WRITABLE, 139/235, BOLD
 .sh,   002
 .csh,  002
 
-.o,    236/16 DARK
+.o,    236/16, BOLD
 
 # ...maay not be supported *sigh*
 #Makefile, 229/64
