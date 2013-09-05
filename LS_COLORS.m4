@@ -69,6 +69,9 @@ SOCK,                  200
 STICKY,                118/235, BOLD
 STICKY_OTHER_WRITABLE, 139/235, BOLD
 
+.lck,     15/124, DARK, UNDERLINE
+.lock,    15/124, DARK, UNDERLINE
+
 .tar.gz,  124/52
 .tar.bz1, 160/52
 .tgz,     124/232
@@ -91,10 +94,10 @@ STICKY_OTHER_WRITABLE, 139/235, BOLD
 .rpm,  53/235
 
 # older archive formast that are now uncommon
-.svgz, 88/234
 .arj,  88/234
 .taz,  88/234
 .lzh,  88/234
+.lzma, 88/234
 .z,    88/234
 .Z,    88/234
 .dz,   88/234
@@ -177,14 +180,19 @@ STICKY_OTHER_WRITABLE, 139/235, BOLD
 .sub,  157/23
 
 # txt formats
-.nfo,  83/58, DARK
+.cfg,    222/235
+.conf,   222/235
+.config, 222/235
+.nfo,    194/58, DARK
 
 # www/w3c formats
 .html, 187/16
 .htm,  185/16
 .js,   182/16
+.json, 186/16
 .css,  229/16
-.svg,  175/15
+.svg,  175/16
+.svgz, 162/16
 
 # templating tools used to generate
 # the above www/w3c data
@@ -202,13 +210,18 @@ STICKY_OTHER_WRITABLE, 139/235, BOLD
 .sh,   002
 .csh,  002
 
-.o,    236/16, BOLD
+# stuff that should not be as visible
+.bak,    249/17, DARK
+.backup, 249/17, DARK
+.o,      236/16, BOLD
+.orig,   81/16, DARK
 
 # ...maay not be supported *sigh*
 #Makefile, 229/64
 #Rakefile, 229/64
 #Gemfile,  86/23
 
+.log, 228/56
 
 .exe, 40/238
 .dmg, 48/236
